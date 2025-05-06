@@ -25,7 +25,7 @@ terraform {
 provider "docker" {}
 
 module "nginx_containers" {
-  source             = "github.com/rajes1976/docker.git//?ref=main"
+  source             = "github.com/rajes1976/docker.git//?ref=master"
   network_name       = "terra_net_test"
   docker_image_name  = "nginx:1.27"
   containers = [
