@@ -8,7 +8,7 @@ Deze module maakt een Docker-netwerk aan en NGINX-containers.
 - `docker_image_name` – Docker-image (zoals nginx:latest)
 - `containers` – Lijst van containers met naam, poort en omgeving
 
-# Voorbeeldgebruik
+## Voorbeeldgebruik
 Maak een test folder aan en gebruik dit als main.tf
 terraform init
 terraform apply
